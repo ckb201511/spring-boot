@@ -6,7 +6,7 @@ import grails.gorm.annotation.Entity
 class Book {
 
     static constraints = {
-        isbn(blank:true,nullable: true)
+        isbn(blank:false,nullable: true)
         author(blank:true,nullable: true)
         title(blank:true,nullable: true)
     }
